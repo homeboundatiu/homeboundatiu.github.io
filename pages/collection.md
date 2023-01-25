@@ -1,7 +1,7 @@
 ---
 title: Home Bound Catalogue
 layout: collection
-permalink: /Catalogue
+permalink: /catalogue
 ---
 
 {{site.description}}
