@@ -1,5 +1,5 @@
 ---
-title: IDAH Community Archiving Template
+title: About Home Bound
 layout: homepage
 permalink: /
 pullquote: "Archives could and should go beyond the logics of possession, whether of physical or digital records, to prioritize human centered-values that position record creators not only as subjects, but as active agents in their own liberation."
