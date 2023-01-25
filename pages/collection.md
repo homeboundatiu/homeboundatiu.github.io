@@ -1,7 +1,7 @@
 ---
-title: Our Collection
-layout: collection
-permalink: /collection
+title: About Home Bound
+layout: About Home Bound
+permalink: /AboutHomeBound
 ---
 
 {{site.description}}
