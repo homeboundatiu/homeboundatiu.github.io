@@ -160,6 +160,7 @@ exclude :
     - LICENSE
     - README.md
     - INSTALL.md
+    - vendor/bundle
 include: ['_pages']
 
 sass:
