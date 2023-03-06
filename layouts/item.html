@@ -28,7 +28,7 @@ format: item
 {% elsif ItemPhotoResult %}
 <img class="article-image float-right thumbnail" src="{{ ItemPhotoResult }}" alt="{{ page.title }}""/>{% endif %}
 
-{% if page.contributor %}<h2>Artwork by {{ page.contributor }}</h2>{% endif %}
+{% if page.contributor %}<h2>Artwork contributed by {{ page.contributor }}</h2>{% endif %}
 
 {% if page.contributorquote %}<q class="pull-quote">"{{ page.contributorquote }}"</q>{% endif %}
 
@@ -38,7 +38,7 @@ format: item
 
 {% if page.format == "media" %}<p>{{ page.embedurl }}{% endif %}
 
-{% if page.teammember %}<p>Assistance collecting this artwork by {{ page.teammember }}</p>{% endif %}
+{% if page.teammember %}<p>Assistance collecting this object by {{ page.teammember }}</p>{% endif %}
 
 {{ content }}
 
@@ -47,7 +47,6 @@ format: item
 <!--{% assign sortedCategories = page.categories | sort %}{% for category in sortedCategories %}
 - {{ category }} (url = {{site.baseurl}}/groups#{{ category | replace: " ","-" }})
 {% endfor %}-->
-
 
 <!-- {: .my-class } -->  
 
