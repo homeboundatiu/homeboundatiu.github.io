@@ -42,29 +42,29 @@ repository: 'homeboundatiu/homeboundatiu.github.io' # change this to your reposi
 #---------------------
 
 # Title of your website
-title: "IDAH@IU"
+title: "Home Bound"
 
 # Subtitle of your website. Leave blank if you want to.
-subtitle: "An Archive of Our Community's Heirlooms"
+subtitle: "A creative imagining of the experience of home, untethered to concrete structures"
 
 # A longer description of your site (max 150 words). Helps search engines find you.
-description: "Community Archiving Site"
+description: "Home Bound is an artists' collection dedicated to creatively imagining the experience of home, untethered to concrete structures, during the 2020 pandemic"
 
 # These credits show up in the includes/_footer.html
 # Main author of the website.
-author: "IDAH@IU"
-authorname : "Institute for Digital Arts and Humanities"
+author: "CGD"
+authorname : "Claudia Gonzalez-Diaz"
 sitelogo: "site_logo.jpg"
 
 # What year did you start up this community project?
-sitedate : 2022
+sitedate : 2023
 
 # Other community social media. Leave blank if you don't have these.
 email : "idah [at] iu.edu"
-website : "https://idah.indiana.edu/"
-twitter : "IDAH_IU"
-github : "idahatiu"
-facebook : "idahatiu"
+website : ""
+twitter : ""
+github : "homeboundatu"
+facebook : ""
 instagram : 
 
 # If you need to know how many people visit your site, go to https://analytics.google.com/
