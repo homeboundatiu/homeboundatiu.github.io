@@ -1,5 +1,5 @@
 ---
-title: Our Stories
-layout: stories
-permalink: /stories
+title: Our Reception
+layout: reception
+permalink: /reception
 ---
