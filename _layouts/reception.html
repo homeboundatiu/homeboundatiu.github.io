@@ -1,0 +1,22 @@
+---
+layout: page
+format: reception
+---
+
+
+</div>
+
+<section class="filter-simple">
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x grid-margin-x">
+{% for reception in site.reception %}
+{% include _receptionbox.html %}
+{% endfor %}
+	</div>
+</div>
+<div class="grid-container">
+		<div class="large-12 cell">
+</div>
+</div>
+</section>
