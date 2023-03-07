@@ -1,0 +1,44 @@
+---
+layout: page
+format: stories
+---
+
+{% if item.categories %}
+{% for cat in item.categories %}
+{% assign catdash = cat | replace: " ", "-" %}
+{% assign grouplist = grouplist | push: catdash %}
+{% endfor %}
+{%endif%}
+
+{% assign uniquetags = grouplist | uniq %}
+
+
+</div>
+
+<section class="filter-simple">
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x margin-x">
+		<div class="large-12 cell">
+			<div>
+				<div class="button-group round">
+					<button class="button hollow filter-simple-button is-active" data-filter="all">All</button>
+{% for group in uniquetags %}
+					<button class="button hollow filter-simple-button" data-filter="{{group}}">{{group | replace: " ", "-"}}</button>
+{% endfor %}
+				</div>
+			</div>
+
+		</div>
+	<div class="grid-x grid-padding-x grid-margin-x">
+{% for item in site.items %}
+{% include _itembox.html %}
+{% endfor %}
+	</div>
+</div>
+<div class="grid-container">
+		<div class="large-12 cell">
+{% endfor %}
+</div>
+</div>
+</section>
