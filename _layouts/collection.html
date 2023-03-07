@@ -1,0 +1,52 @@
+---
+layout: page
+format: collection
+---
+
+{% assign grouplist = "" | split: ',' %}
+{% for item in site.items %}
+{% if item.categories %}
+{% for cat in item.categories %}
+{% assign catdash = cat | replace: " ", "-" %}
+{% assign grouplist = grouplist | push: catdash %}
+{% endfor %}
+{%endif%}
+{% endfor %}
+
+{% assign uniquetags = grouplist | uniq %}
+
+
+</div>
+
+<section class="filter-simple">
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x margin-x">
+		<div class="large-12 cell">
+			<div>
+				<div class="button-group round">
+					<button class="button hollow filter-simple-button is-active" data-filter="all">All</button>
+{% for group in uniquetags %}
+					<button class="button hollow filter-simple-button" data-filter="{{group}}">{{group | replace: " ", "-"}}</button>
+{% endfor %}
+				</div>
+			</div>
+		</div>
+	<div class="large-12 cell">
+		<!--collection start-->
+
+		{{ content }}
+
+		<!--collection end-->
+	</div>
+</div>
+<div class="grid-container">
+	<div class="grid-x grid-padding-x grid-margin-x">
+
+	{% if page.url contains "blog" %}{% include _postlist.html %}
+	{% else %}{% include _itemlist.html %}
+	{% endif %}
+
+		</div>
+	</div>
+</div>
