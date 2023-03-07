@@ -112,6 +112,9 @@ collections:
     contributor: true
     creator: true
     group: true
+  receptiioin:
+    output: true
+    permalink: /:collection/:path:output_ext
 # If your collection items need to be grouped by person, family or some other group, uncomment this collection
 #  groups:
 #    output: true
@@ -148,6 +151,7 @@ baseurl:
 #
 urlimg: '/assets/img/'
 urlitemimg: '/assets/items/'
+urlreceptionimg: '/assets/reception/'
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 markdown : kramdown
