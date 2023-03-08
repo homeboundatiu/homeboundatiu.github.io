@@ -5,11 +5,9 @@ format: collection
 
 {% assign grouplist = "" | split: ',' %}
 {% for item in site.items %}
-{% if item.categories %}
-{% for cat in item.categories %}
-{% assign catdash = cat | replace: " ", "-" %}
+{% if item.creator %}
+{% assign catdash = item.creator | replace: " ", "-" %}
 {% assign grouplist = grouplist | push: catdash %}
-{% endfor %}
 {%endif%}
 {% endfor %}
 
