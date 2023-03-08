@@ -1,16 +1,16 @@
 # Site navigation links
 
-- title: Our Community
+- title: Homebound
   url: /
   excerpt:
   image:
 
-- title: Our Collection
+- title: Catalogue
   url: /catalogue
   excerpt:
   image:
 
-- title: Our Reception
+- title: Reception
   url: /reception
   excerpt:
   image:
