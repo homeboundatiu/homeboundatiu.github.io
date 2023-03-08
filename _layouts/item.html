@@ -42,7 +42,17 @@ format: item
 
 {{ content }}
 
+{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
+{% for static_file in site.static_files %}
+{% if static_file.path contains ItemImagePath %}
+{% unless static_file.path contains '_th' %}
+{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
+<img class="featured-image img-fluid" src="{{ ItemPhotoResult }}" alt="{{ page.title }}">
+{% endunless %}
+{% endif %}
+{% endfor %}
 
+											
 		</div>
 	</div>
 </div>
