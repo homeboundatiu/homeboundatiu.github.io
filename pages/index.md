@@ -2,11 +2,11 @@
 title: About Home Bound
 layout: homepage
 permalink: /
-pullquote: "How can we use art to creatively imagine the experience of home, untethered to concrete structures?"
-quoteattribution: "Claudia González-Díaz"
+pullquote: "How can we use art to creatively imagine the experience of home, untethered to concrete structures and heteronormative notions of family?"
+
 ---
+Home Bound is an independently curated art exhibition featuring artworks that each visualize aesthetic concepts of “home.” The art in this exhibition reveals that home is not necessarily constrained to a rigid structure because, in our lives marked by transience, our homes are bound to transition into other meanings of home. Bringing together more than fifteen artworks made by IU students and recent alumni, Home Bound acknowledges that in comparing ideas of home, we can meditate on the varied understandings of the passage of time, the limits of a space and memory, and the value of decoration. This exhibition’s aim is to use art to creatively imagine the experience of home, untethered to concrete structures and heteronormative notions of family.
 
-[add curatorial statement here]
+The title evokes the dialectical definition of the word “homebound,” which can describe either the inability to leave one’s house for any given health-related reason or the path toward home as a destination. Opening with works such as Elizabeth Blackwell’s sculpture _Never Safe_, Jade Kern’s photograph series _Change_, Maggie Rushton’s digital composition _What lives on?_, Olivia Kalish’s works on paper _Where Do We Go?_ and _Sisters Always Share_, and Regan Jones’s video _Burnout_ and photograph _It Might Hurt_, Home Bound explores the meaning of home not only as a place to inhabit but also in relation to space, time, and familial affiliations. As the exhibition progresses, artists make visual the deeply internal process of building a home using personal experiences as materials, demonstrating an embrace of the journey toward a more expansive notion of home. Works such as Liliana Guzmán’s printa of _Night Visit_ and _Forever Tree_, Gloria M. Colom Braña’s mixed media composition _Perseverancia_, Elena W.’s zine _Blue is my Mom’s Favorite Color_, and Flora Arthur’s hanging sculpture _Metamorphosis_ explore this process of unearthing a home from within. Lucas Beam made the red promotional poster announcing Home Bound and designed gallery text.
 
-- [On our web site](https://idah.indiana.edu)
-- By email at idah at indiana.edu
+This DIY exhibition is curated by Claudia González-Díaz with the support of Jennifer Simms, Faye Gleisser, Kalani Craig and the Institute for Digital Arts and Humanities at IU, Nazareth Pantaloni III, Linda Tien, and Claudia’s family and friends. Home Bound is on view from March 30 to May 20, 2023, at the IUB Sciences Library in the Chemistry Building C002. For exhibition updates and additional information about the artists in the show, please visit Home Bound’s Instagram @homebound_iu.
