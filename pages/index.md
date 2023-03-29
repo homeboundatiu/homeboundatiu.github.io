@@ -3,7 +3,7 @@ title: About Home Bound
 layout: homepage
 permalink: /
 pullquote: An independently curated art exhibition on view from March 30 to May 20 at the IUB Sciences Library
-
+---
 
 Home Bound is an independently curated art exhibition featuring artworks that each visualize aesthetic concepts of “home.” The art in this exhibition reveals that home is not necessarily constrained to a rigid structure because, in our lives marked by transience, our homes are bound to transition into other meanings of home. Bringing together more than fifteen artworks made by IU students and recent alumni, Home Bound acknowledges that in comparing ideas of home, we can meditate on the varied understandings of the passage of time, the limits of a space and memory, and the value of decoration. This exhibition’s aim is to use art to creatively imagine the experience of home, untethered to concrete structures and heteronormative notions of family.
 
