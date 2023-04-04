@@ -112,7 +112,7 @@ collections:
     contributor: true
     creator: true
     group: true
-  receptiioin:
+  reception:
     output: true
     permalink: /:collection/:path:output_ext
 # If your collection items need to be grouped by person, family or some other group, uncomment this collection
