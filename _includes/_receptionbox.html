@@ -1,35 +1,19 @@
-{% capture FileName %}{{ reception.url | split: '/' | last }}{% endcapture %}
-{% capture ItemID %}{{ FileName | split: '.' | first }}{% endcapture %}
-
-{% assign catlist = "" | split: ',' %}
-{% if reception.categories %}
-{% for cat in reception.categories %}
-{% assign catdash = cat | replace: " ", "-" %}
-{% assign catlist = catlist | push: catdash %}
-{% endfor %}
-{% assign uniquetags = catlist | uniq %}
-{%endif%}
-
-
-	{% if reception.itemphoto %}
-		{% assign ItemPhotoResult = reception.photo %}
-	{% else %}
-		{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
-		{% for static_file in site.static_files %}
-			{% if static_file.path contains ItemImagePath %}
-				{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
-
-	<div class="cell small-12 medium-6 large-4 card filter-simple-item {% if reception.group%}{{reception.group}} {% endif %}{% if uniquetags%}{{ uniquetags | join: " " }}{% endif %}">
+<div class="cell small-12 medium-6 large-4 card filter-simple-item">
 	{% if ItemPhotoResult != empty %}
 	<div class="card-thumbnail">
-		<a href="{{ site.baseurl }}{{ reception.url }}">
 		<img class="square thumbnail" src="{{ ItemPhotoResult }}" alt="{{ page.title }}""/></a>
 	</div>
 	{% endif %}
-  <h3 class="card-title accentbg"><a href="{{ site.baseurl }}{{ reception.url }}">{{ reception.title }}</a></h3>
-  {%if reception.contributor %}<h4 class="card-contributor">{{ reception.contributor }}</h4>{% endif %}
-  <p class="card-desc">{{ reception.shortdesc | strip_html | truncatewords:30 }} (<a href="{{ site.baseurl }}{{ reception.url }}">read more...</a>)</p>
+  <p class="card-desc"><button class="button" data-open="{{ ItemPhotoResult | split: "/" | last }}">View full-size</button></p>
 </div>
+<div class="reveal" id="{{ ItemPhotoResult | split: "/" | last }}" data-reveal>
+	<img src={{ ItemPhotoResult }} alt="Our reception">
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+
+
+
